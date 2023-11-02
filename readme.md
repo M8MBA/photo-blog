@@ -12,7 +12,7 @@ I wanted to create a photography portfolio using my little javascript skills. I 
 
 Contributors names and contact info
 
-mailto:cademichaelwilson@gmail.com
+cademichaelwilson@gmail.com
 
 ## Version History
 
