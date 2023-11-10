@@ -62,7 +62,25 @@ header nav ul li a:hover {
   color: gold;
   /* border-radius: 15px; */
   text-shadow: none;
-  border-bottom: solid gold ;
+  border-bottom: solid gold;
+}
+
+/* New styles for the smaller header */
+header.small {
+  padding: 15px 40px;
+  /* Adjust the padding for the smaller header */
+  transition: height 0.3s;
+}
+
+header.small h1 {
+  font-size: 20px;
+  /* Adjust the font size for the smaller header */
+  transition: height 0.3s;
+}
+
+header.small ul {
+ padding-top: 5px;
+ transition: height 0.3s;
 }
 
 #profile-pic {
@@ -82,7 +100,7 @@ section {
   /* background: rgba(20, 0, 145, 0.14); */
   background-image: linear-gradient(to bottom right, slateblue, gold);
   color: black;
-} 
+}
 
 .bio {
   margin: auto 3%;
@@ -150,7 +168,7 @@ section {
   height: auto;
 }
 
-footer{
+footer {
   margin: auto;
   font-family: "Audiowide", sans-serif;
   font-size: 30px;
@@ -191,8 +209,8 @@ address {
 
 #social {
   font-size: 45px;
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .fa {

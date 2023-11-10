@@ -1,5 +1,6 @@
 // Array of image URLs
 const images = [
+<<<<<<< Updated upstream
   'assets/css/images/fav-grafitti.JPG',
   'assets/css/images/building-light.JPG',
   'assets/css/images/dat-one-mtn.JPG',
@@ -13,6 +14,21 @@ const images = [
   'assets/css/images/recycle-clown.JPG',
   'assets/css/images/shoes-grafitti.JPG',
   
+=======
+  'assets/images/fav-grafitti.JPG',
+  'assets/images/building-light.JPG',
+  'assets/images/dat-one-mtn.JPG',
+  'assets/images/slc-long-exposure.JPG',
+  'assets/images/day-dragon.JPG',
+  'assets/images/desert-tree.JPG',
+  'assets/images/dumpster-dive.JPG',
+  'assets/images/night-dragon.JPG',
+  'assets/images/indicator.JPG',
+  'assets/images/or-wave.JPG',
+  'assets/images/recycle-clown.JPG',
+  'assets/images/shoes-grafitti.JPG',
+
+>>>>>>> Stashed changes
   // Add more image URLs here
 ];
 
@@ -58,3 +74,16 @@ function showOriginalImage(imageURL) {
 
 // Call the createGallery function when the page finishes loading
 window.addEventListener('load', createGallery);
+
+
+// JavaScript to handle header size on scroll
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+window.onscroll = function () {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("small");
+  } else {
+    header.classList.remove("small");
+  }
+};
