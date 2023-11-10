@@ -1,20 +1,5 @@
 // Array of image URLs
 const images = [
-<<<<<<< Updated upstream
-  'assets/css/images/fav-grafitti.JPG',
-  'assets/css/images/building-light.JPG',
-  'assets/css/images/dat-one-mtn.JPG',
-  'assets/css/images/slc-long-exposure.JPG',
-  'assets/css/images/day-dragon.JPG',
-  'assets/css/images/desert-tree.JPG',
-  'assets/css/images/dumpster-dive.JPG',
-  'assets/css/images/night-dragon.JPG',
-  'assets/css/images/indicator.JPG',
-  'assets/css/images/or-wave.JPG',
-  'assets/css/images/recycle-clown.JPG',
-  'assets/css/images/shoes-grafitti.JPG',
-  
-=======
   'assets/images/fav-grafitti.JPG',
   'assets/images/building-light.JPG',
   'assets/images/dat-one-mtn.JPG',
@@ -28,7 +13,6 @@ const images = [
   'assets/images/recycle-clown.JPG',
   'assets/images/shoes-grafitti.JPG',
 
->>>>>>> Stashed changes
   // Add more image URLs here
 ];
 
