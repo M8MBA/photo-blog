@@ -6,7 +6,8 @@ body {
 }
 
 header {
-  background-image: url("/assets/images/recycle-clown.JPG");
+  /* background-image: url("/assets/images/recycle-clown.JPG"); */
+  background-color: black;
   background-size: cover;
   background-position: 85%;
   background-attachment: fixed;
@@ -107,7 +108,8 @@ section {
 }
 
 #gallery {
-  background-image: url("/assets/images/brick-wall-large.jpeg");
+  /* background-image: url("/assets/images/brick-wall-large.jpeg"); */
+  background-color: black;
   background-attachment: fixed;
   background-position: top;
   background-size: cover;
@@ -136,8 +138,8 @@ section {
 }
 
 .img-container img {
-  width: 520px;
-  height: 350px;
+  width: 350px;
+  height: 210px;
   object-fit: cover;
   cursor: pointer;
   border-radius: 35px;
