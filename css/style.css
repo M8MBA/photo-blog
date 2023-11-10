@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-image: url("/Users/Cade/Documents/Code/photo-blog/assets/images/recycle-clown.JPG");
+  background-image: url("/assets/images/recycle-clown.JPG");
   background-size: cover;
   background-position: 85%;
   background-attachment: fixed;
@@ -107,7 +107,7 @@ section {
 }
 
 #gallery {
-  background-image: url("/Users/Cade/Documents/Code/photo-blog/assets/images/brick-wall-large.jpeg");
+  background-image: url("/assets/images/brick-wall-large.jpeg");
   background-attachment: fixed;
   background-position: top;
   background-size: cover;
