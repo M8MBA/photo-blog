@@ -12,7 +12,7 @@ const images = [
   'assets/images/or-wave.JPG',
   'assets/images/recycle-clown.JPG',
   'assets/images/shoes-grafitti.JPG',
-  
+
   // Add more image URLs here
 ];
 
@@ -58,3 +58,16 @@ function showOriginalImage(imageURL) {
 
 // Call the createGallery function when the page finishes loading
 window.addEventListener('load', createGallery);
+
+
+// JavaScript to handle header size on scroll
+var header = document.getElementById("header");
+var sticky = header.offsetTop;
+
+window.onscroll = function () {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("small");
+  } else {
+    header.classList.remove("small");
+  }
+};
