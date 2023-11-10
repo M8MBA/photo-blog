@@ -12,11 +12,11 @@ I wanted to create a photography portfolio using my little javascript skills. I 
 
 Contributors names and contact info
 
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 mailto:cademichaelwilson@gmail.com
-=======
+=========
 cademichaelwilson@gmail.com
->>>>>>> scripts
+>>>>>>>>> Temporary merge branch 2
 
 ## Version History
 
