@@ -67,20 +67,18 @@ header nav ul li a:hover {
 
 /* New styles for the smaller header */
 header.small {
-  padding: 15px 40px;
+  padding: 1rem 3rem;
   /* Adjust the padding for the smaller header */
   transition: height 0.3s;
 }
 
 header.small h1 {
-  font-size: 20px;
+  font-size: 1.2rem;
   /* Adjust the font size for the smaller header */
-  transition: height 0.3s;
 }
 
 header.small ul {
- padding-top: 5px;
- transition: height 0.3s;
+ padding-top: .4rem;
 }
 
 #profile-pic {
